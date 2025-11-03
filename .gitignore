@@ -1,0 +1,6 @@
+# Ignore terraform local state & cache
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+output/
